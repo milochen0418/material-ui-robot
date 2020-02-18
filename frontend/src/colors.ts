@@ -1,0 +1,6 @@
+export const primary = '#FF5200'
+export const secondary = '#00b7ff'
+export const error = '#993b04'
+export const secondaryHeader = '#868686'
+export const success = '#1c860e'
+export const background = '#f2f2f2'
