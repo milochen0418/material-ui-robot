@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "paths": {
+      "@config": [
+        "src/Config"
+      ],
+      "@container": [
+        "src/inversify.config"
+      ],
+      "@dataAccess": [
+        "src/dataAccess"
+      ],
+      "@entities": [
+        "src/entities"
+      ],
+      "@services": [
+        "src/businessLogic"
+      ],
+      "@shared": [
+        "src/shared"
+      ],
+      "@server": [
+        "src/Server"
+      ]
+    },
+    "types": [
+      "node",
+      "reflect-metadata"
+    ],
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "spec/**/*.ts"
+  ]
+}
