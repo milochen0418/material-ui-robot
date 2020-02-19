@@ -4,6 +4,12 @@
 BROKER_HOST=127.0.0.1
 PORT=3100
 
+
+# argument parsing 
+
+
+
+
 # what machine 
 unameOut="$(uname -s)"
 case "${unameOut}" in
